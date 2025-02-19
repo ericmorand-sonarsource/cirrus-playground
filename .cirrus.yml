@@ -1,0 +1,5 @@
+container:
+  image: node:latest
+
+main_task:
+  output_build_id_script: echo $CIRRUS_BUILD_ID
